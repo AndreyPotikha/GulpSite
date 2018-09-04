@@ -1,0 +1,689 @@
+@font-face {
+  src: url("../fonts/Raleway Thin.ttf");
+  font-family: 'RalewayThin'; }
+
+@font-face {
+  src: url("../fonts/yantramanav-black.otf");
+  font-family: 'YantramanavBlack'; }
+
+@font-face {
+  src: url("../fonts/Raleway-Black.ttf");
+  font-family: 'Raleway-Black'; }
+
+header {
+  position: relative;
+  height: 700px;
+  background-image: url(../img/maker1.png);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  background-repeat: no-repeat; }
+
+.logo {
+  position: relative;
+  top: 10px;
+  width: 80px;
+  height: 50px;
+  background-image: url(../img/logo.png);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+header ul {
+  display: none;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+header a {
+  color: #fff;
+  text-decoration: none; }
+
+header li {
+  margin-top: 10px; }
+
+.touch {
+  position: relative;
+  top: -35px;
+  right: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40px;
+  height: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 8px;
+  margin-top: 0;
+  margin-left: auto;
+  z-index: 500; }
+
+.touch-row {
+  width: 80%;
+  height: 4.5px;
+  background: #fff; }
+
+#touch-inp:checked ~ ul {
+  display: block;
+  width: 50px;
+  height: 140px;
+  position: absolute;
+  right: 50px;
+  top: 105px;
+  text-align: center; }
+
+.tagline {
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+  top: 180px;
+  text-align: center; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'RalewayThin';
+  font-weight: lighter; }
+
+h3 {
+  width: 180px; }
+
+body {
+  margin: 0;
+  background-color: #191e3f;
+  color: #fff; }
+
+.mission {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  max-width: 900px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.shadow-number {
+  font-size: 110px;
+  letter-spacing: 10px;
+  opacity: .1;
+  margin: 0;
+  font-family: 'YantramanavBlack';
+  z-index: 999; }
+
+.mission > p {
+  position: relative;
+  margin-top: 70px;
+  font-weight: lighter; }
+
+.mission-number {
+  position: relative;
+  left: 7%; }
+
+.mission-photo {
+  position: relative;
+  width: 1000px;
+  height: 290px;
+  background-image: url(../img/mission.png);
+  -webkit-background-size: 300px 300px;
+          background-size: 300px;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 40px 70px rgba(0, 0, 0, 0.5); }
+
+.mission-name {
+  position: relative;
+  left: 9.9%;
+  margin-top: -10px;
+  font-size: 18px;
+  font-family: 'RalewayThin';
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  opacity: .8; }
+
+.mission-text {
+  position: relative;
+  left: -5%;
+  margin-top: 70px;
+  font-family: 'RalewayThin';
+  line-height: 1.5;
+  opacity: .6; }
+
+.projects {
+  position: relative;
+  margin-top: 50px;
+  height: 1000px;
+  background-image: url(../img/maker2.png);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  background-repeat: no-repeat; }
+
+.projects-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1000px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+.projects-content-letter-r {
+  font-family: 'Raleway-Black';
+  opacity: .6;
+  font-size: 900px; }
+
+.projects-content-letter-r p {
+  margin: 0;
+  color: #1C2348;
+  margin-left: -100px;
+  text-shadow: 0 50px 100px rgba(0, 0, 0, 0.5); }
+
+.projects-principles {
+  width: 450px;
+  max-width: 450px;
+  margin-top: 380px;
+  margin-left: -450px;
+  z-index: 999; }
+
+.projects-principles img {
+  width: 120px;
+  height: 35px; }
+
+.projects-principles-line {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.projects-number {
+  margin-top: 250px; }
+
+.projects-name {
+  position: relative;
+  width: 70px;
+  height: 50px;
+  margin-top: 290px;
+  left: -210px;
+  font-size: 18px;
+  font-family: 'RalewayThin';
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  opacity: .8; }
+
+.team {
+  max-width: 900px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+.team-line {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-conten: space-between; }
+
+.team-name {
+  position: relative;
+  width: 70px;
+  height: 50px;
+  margin-top: 30px;
+  left: -113px;
+  font-size: 18px;
+  font-family: 'RalewayThin';
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  opacity: .8; }
+
+.team-text {
+  margin-top: 100px;
+  width: 280px;
+  z-index: 999; }
+
+.team-text hr {
+  width: 30px;
+  float: left; }
+
+.team-text h5 {
+  font-size: 20px;
+  margin-bottom: 0;
+  opacity: .6; }
+
+.team-text p {
+  font-family: 'RalewayThin';
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: .6; }
+
+.team-first-photo {
+  position: relative;
+  margin-left: -100px;
+  width: 400px;
+  height: 400px;
+  background-image: url(../img/person1.png);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5); }
+
+.team-first-photo:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 31, 62, 0.8); }
+
+.team-line-second {
+  max-width: 1000px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.team-second-photo {
+  position: relative;
+  left: 10%;
+  width: 280px;
+  height: 220px;
+  background-image: url(../img/person2.png);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5); }
+
+.team-second-photo:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 31, 62, 0.8); }
+
+.team-text-second {
+  margin-left: 60px; }
+
+.team-third-photo {
+  position: relative;
+  left: -50px;
+  margin-top: 80px;
+  width: 280px;
+  height: 220px;
+  background-image: url(../img/person3.png);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5); }
+
+.team-third-photo:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 31, 62, 0.8); }
+
+.team-text-third {
+  position: relative;
+  margin-top: 180px;
+  left: 10%; }
+
+.team-fourth-photo {
+  position: relative;
+  left: -50px;
+  width: 260px;
+  height: 280px;
+  background-image: url(../img/person4.png);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5); }
+
+.team-fourth-photo:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 31, 62, 0.8); }
+
+.team-text-fourth {
+  position: relative;
+  margin-top: 175px;
+  left: 10%; }
+
+.team-fifth-photo {
+  position: relative;
+  left: 50px;
+  margin-top: 80px;
+  width: 260px;
+  height: 280px;
+  background-image: url(../img/person5.png);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5); }
+
+.team-fifth-photo:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 31, 62, 0.8); }
+
+.team-text-fifth {
+  position: relative;
+  margin-top: 245px;
+  left: 1%; }
+
+.event {
+  position: relative;
+  margin-top: 80px;
+  height: 1000px;
+  background-image: url(../img/maker3.png);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  background-repeat: no-repeat; }
+
+.event-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 900px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+.event-text {
+  width: 390px;
+  margin-top: 200px; }
+
+.event-text h3 {
+  font-size: 60px; }
+
+.event-text p {
+  font-family: 'RalewayThin';
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: .6; }
+
+.event-number {
+  margin-left: -60px;
+  margin-top: -108px; }
+
+.event-name {
+  position: relative;
+  height: 30px;
+  left: -12%;
+  margin-top: 55px;
+  font-size: 18px;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  opacity: .8; }
+
+.projects-event-letter-e {
+  font-family: 'Raleway-Black';
+  opacity: .6;
+  font-size: 900px; }
+
+.projects-event-letter-e p {
+  margin: 0;
+  color: #1C2348;
+  margin-left: -120px;
+  margin-top: -160px;
+  text-shadow: 0 50px 100px rgba(0, 0, 0, 0.5); }
+
+#toTop {
+  width: 25px;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  display: none;
+  color: #333;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  font-size: 20px;
+  z-index: 9999;
+  opacity: .5; }
+
+footer {
+  max-width: 400px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+footer {
+  text-align: center; }
+
+.footer-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px; }
+
+.footer-nav a {
+  text-decoration: none;
+  color: #fff; }
+
+@media (max-width: 1024px) {
+  .team-line-second {
+    margin-left: -100px; } }
+
+@media (max-width: 768px) {
+  .mission-text {
+    left: -50%;
+    margin-top: 240px; }
+  .mission-name {
+    left: -6%;
+    height: 50px;
+    margin-top: 115px; }
+  .projects-number {
+    position: relative;
+    left: -540px; }
+  .projects-name {
+    left: -670px; }
+  .team-text {
+    position: relative;
+    left: -200px;
+    margin-top: 200px; }
+  .team-first-photo {
+    margin-top: 120px;
+    margin-left: -400px; }
+  .team-line-second {
+    display: block;
+    margin-left: 50px;
+    margin-top: 120px; }
+  .team-text-second {
+    margin-left: 200px;
+    margin-top: -120px; }
+  .team-third-photo {
+    left: 0;
+    margin-top: -200px; }
+  .team-text-third {
+    top: 20%;
+    margin-top: 280px;
+    left: 30%; }
+  .team-fourth-photo {
+    left: 20%;
+    margin-top: -120px; }
+  .team-text-fourth {
+    left: 8%; }
+  .team-fifth-photo {
+    left: 50px; }
+  .team-text-fifth {
+    margin-top: -270px;
+    left: 35%; }
+  .event {
+    margin-top: 350px; }
+  .event-name {
+    left: -14%; }
+  .projects-event-letter-e {
+    position: relative;
+    left: -12%; } }
+
+@media (max-width: 480px) {
+  .mission {
+    display: block; }
+  .mission-name {
+    left: -27%;
+    margin-top: -330px; }
+  .mission-number {
+    max-width: 300px; }
+  .mission-photo {
+    margin-top: 250px;
+    left: 10%;
+    width: 300px;
+    height: 230px; }
+  .mission-text {
+    width: 300px;
+    left: 12%;
+    margin-top: 20px; }
+  .projects-content-letter-r {
+    font-size: 700px; }
+  .projects-principles {
+    width: 300px;
+    max-width: 300px;
+    margin-top: 380px;
+    margin-left: -300px;
+    z-index: 999; }
+  .projects-principles img {
+    padding: 10px;
+    width: 70px;
+    height: 25px; }
+  .projects-number {
+    position: relative;
+    left: -70%; }
+  .projects-name {
+    left: -93%; }
+  .team-first-photo {
+    width: 300px;
+    height: 300px; }
+  .event {
+    height: 850px; }
+  .projects-event-letter-e {
+    position: relative;
+    left: -50%;
+    font-size: 700px; }
+  .event-text {
+    z-index: 999; }
+  .event-name {
+    z-index: 999;
+    left: -22.5%; } }
+
+@media (max-width: 400px) {
+  .mission-name {
+    left: -24%;
+    margin-top: -290px; }
+  .projects-name {
+    left: -98%; }
+  .projects-event-letter-e {
+    left: -70%; }
+  .event-name {
+    left: -27%; }
+  footer {
+    width: 300px; }
+  .team-text-fifth p {
+    width: 180px; }
+  .team-text-third p {
+    width: 180px; }
+  .team-text-third {
+    margin-top: 290px;
+    left: -5%; }
+  .team-third-photo {
+    margin-top: -220px; }
+  .team-text-fifth {
+    margin-top: -270px;
+    left: 1%; } }
+
+@media (max-width: 360px) {
+  .mission-name {
+    left: -22%;
+    margin-top: -270px; }
+  .mission-photo {
+    width: 290px;
+    height: 210px;
+    left: 7%; }
+  .projects-name {
+    left: -101%;
+    margin-top: 295px; }
+  .projects-content-letter-r {
+    font-size: 600px; }
+  .team-first-photo {
+    margin-left: -470px; }
+  .projects-event-letter-e {
+    font-size: 600px; }
+  .team-second-photo {
+    left: 0; }
+  .team-text-second {
+    margin: 0;
+    left: 0; }
+  .team-text-third {
+    margin: 0;
+    left: 0;
+    margin-top: 350px; }
+  .team-third-photo {
+    left: 0;
+    margin-top: -340px; }
+  .team-text-fourth {
+    margin: 0;
+    left: 0;
+    margin-top: 500px; }
+  .team-fourth-photo {
+    left: 0;
+    margin-top: -390px; }
+  .team-fifth-photo {
+    left: 0;
+    margin-top: 150px; }
+  .team-text-fifth {
+    margin: 0;
+    left: 0; }
+  .event-name {
+    left: -30%; } }
